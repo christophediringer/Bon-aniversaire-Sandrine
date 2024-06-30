@@ -1,0 +1,55 @@
+/* Style de la page pour centrer le contenu */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style du titre */
+h1 {
+    color: #ff6347;
+}
+
+/* Style de l'image */
+img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Style du lien */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style du lien au survol */
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Media query pour les iPhones */
+@media only screen and (max-width: 430px) {
+    body {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    a {
+        width: 80%;
+        text-align: center;
+    }
+}
